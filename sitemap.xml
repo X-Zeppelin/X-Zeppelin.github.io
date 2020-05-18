@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://x-zeppelin.github.io/hexo-share/</loc>
+    
+    <lastmod>2020-05-18T16:33:53.482Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://x-zeppelin.github.io/404.html</loc>
     
     <lastmod>2020-05-18T15:09:15.209Z</lastmod>
