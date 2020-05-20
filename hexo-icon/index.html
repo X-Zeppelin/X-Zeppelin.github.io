@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="wow-Evd5uLGiGV0hxPdbLOMPcT8yPy6yQO1AZzlkUvM">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"x-zeppelin.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="由于hexo next主题采用了Font Awesome图标（不包含如B站，知乎这类中国大陆网站的图标，所以如果需要使用的话需要额外自行添加">
+<meta property="og:type" content="article">
+<meta property="og:title" content="给hexo next扩展图标">
+<meta property="og:url" content="https://x-zeppelin.github.io/hexo-icon/index.html">
+<meta property="og:site_name" content="纯白的小站">
+<meta property="og:description" content="由于hexo next主题采用了Font Awesome图标（不包含如B站，知乎这类中国大陆网站的图标，所以如果需要使用的话需要额外自行添加">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-05-20T12:22:59.000Z">
+<meta property="article:modified_time" content="2020-05-20T13:39:16.749Z">
+<meta property="article:author" content="X.Zeppelin">
+<meta property="article:tag" content="hexo">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://x-zeppelin.github.io/hexo-icon/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>给hexo next扩展图标 | 纯白的小站</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">纯白的小站</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://x-zeppelin.github.io/hexo-icon/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="X.Zeppelin">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="纯白的小站">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          给hexo next扩展图标
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-05-20 20:22:59 / 修改时间：21:39:16" itemprop="dateCreated datePublished" datetime="2020-05-20T20:22:59+08:00">2020-05-20</time>
+            </span>
+
+          
+            <div class="post-description">由于hexo next主题采用了Font Awesome图标（不包含如B站，知乎这类中国大陆网站的图标，所以如果需要使用的话需要额外自行添加</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="Font-Awesome相关知识"><a href="#Font-Awesome相关知识" class="headerlink" title="Font Awesome相关知识"></a><a href="http://www.fontawesome.com.cn/" target="_blank" rel="noopener">Font Awesome</a>相关知识</h2><h3 id="Font-Awesome是什么"><a href="#Font-Awesome是什么" class="headerlink" title="Font Awesome是什么"></a>Font Awesome是什么</h3><p>引用<a href="https://zh.wikipedia.org/wiki/Font_Awesome" target="_blank" rel="noopener">维基百科</a>中的介绍</p>
+<div class="note default">
+            <p>Font Awesome 是一个基于CSS和LESS的字体和图标工具套件。它由Dave Gandy制作，用于Twitter Bootstrap，后来被整合到BootstrapCDN 中。Font Awesome在使用第三方Font Scripts的网站中占有20％的市场份额，排在Google字型之后的第二位。</p>
+          </div>
+
+<p>简单的说，Font Awesome是一个图标库，当网站需要使用一个图标时（比如<i class="fa fa-github"></i>）</p>
+<p>在使用了Font Awesome后可以直接通过在网站相应位置插入</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-github"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>即可使用，具体的Font Awesome使用方法可以看<a href="https://www.runoob.com/font-awesome/fontawesome-tutorial.html" target="_blank" rel="noopener">菜鸟教程</a></p>
+<h3 id="Font-Awesome和hexo-next主题的关系"><a href="#Font-Awesome和hexo-next主题的关系" class="headerlink" title="Font Awesome和hexo next主题的关系"></a>Font Awesome和hexo next主题的关系</h3><p>hexo next主题中使用了Font Awesome图标，所以只需要在相应位置插入<code>fab fa-github</code>即可</p>
+<h2 id="第三方图标库的使用"><a href="#第三方图标库的使用" class="headerlink" title="第三方图标库的使用"></a>第三方图标库的使用</h2><p>由于Font Awesome图标不包含如B站，知乎这类中国大陆网站的图标，所以如果需要使用的话需要额外自行添加第三方的图标库，在这里，我们使用使用<a href="https://www.iconfont.cn/" target="_blank" rel="noopener">阿里巴巴矢量库</a></p>
+<h3 id="下载图标"><a href="#下载图标" class="headerlink" title="下载图标"></a>下载图标</h3><p>首先，我们在阿里巴巴图标库挑选需要的图标，具体可以使用搜索功能进行搜索，在图标上点击添加入库将其加入库中，之后点击右上方购物车图标，点击下载代码获得一个压缩文件</p>
+<h3 id="使用下载的图标"><a href="#使用下载的图标" class="headerlink" title="使用下载的图标"></a>使用下载的图标</h3><p>打开文件中的<code>iconfont.css</code>，将其中的内容（比如这样）</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;<span class="attribute">font-family</span>: <span class="string">"iconfont"</span>;</span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">'iconfont.eot?t=1589906807175'</span>); <span class="comment">/* IE9 */</span></span><br><span class="line">    <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">'iconfont.eot?t=1589906807175#iefix'</span>) <span class="built_in">format</span>(<span class="string">'embedded-opentype'</span>), <span class="comment">/* IE6-IE8 */</span></span><br><span class="line">    <span class="built_in">url</span>(<span class="string">'data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAiAAAsAAAAAD0AAAAgzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDNgqRPI4HATYCJAMYCw4ABCAFhG0HXxuyDCMR9oOSQpP9RYJ5yE75AyR1CmZsFOu9SJ3BIn3W9BPb/Ad3h9hYq2CuK9yPrpD4rxP35f5dCEIazng0oUypUg1gxStcoQJ2sK5Mrk5aBxUGhfHrIJXedPa780X2JD+rwebUuibgQmWZsHTyyT3kZCsny23/A+BgzdWJJ+8bcJj28nLIzRxTTeQlQiYkEW//JGskqBAKIUYqObPoZoWJJy1mwQMT/bqbAQVAxIILao1LyQEWBnZKDng01lcCWwjALQYK62aIEwuoNxDsNIo+CwATou+n/uAVFoBGGsCBGXWxNRDxXKTXI6mXSgIJIF8xAKxPA0AAXABgQF1kaQ2ghFwih4jqjgUAYHEzGjwXP5/9olSv1ypR/qMUs0TqHx4ADUMIoAaAQ6KUKW0EPBdZfJEofYBPztkyHSDwojQNEPKcLPhoHoax2hcgWYaeAB4X/qE8RAAXZ44yVIjdDS0kao0NQxQsVsVKoqptNiISVtb8uVguQCAwl0hEQmNDB04q7SKhpMVjzgG+L4pkoy9TpJqZ39hZBpc6ecvm3EXCXe3nSF0bQXsLdoZsr+0gsOxTD6rxV0d2N/Z6zcbWiga7qssQ1XpQX5xzc6t7jtZoPiE0oDcqYtVpXdmjYQgV7z7icaUyITtaY9SU7FK9Zu3007LNqHJbYYMx2RvaKBVK8dpZPX5Zra/vOVxVtzrXrFebWHEqfaPraM1IReuuwdQmASUh8zVWy/djiKC1AARiCY/XJHCgmUqHgS+gfDjFlkAixLAHIVnLS75d3A+f8bSUVyOobdMEE6IUAUs0pHOaDm/ad0AM/NupIkxx7cNo8sojtetmG5evk5q1OU3kORbOEpfdMQL4FGYLdsMA5UjQC++rNGSIwyGO+CgOZ1ApxEfmYzP+yA2kNXY1wPfHSpeI/Jv4vWp8glc3/J2qMGouX4ZYvZvFIoy2N0VEersaO6Fw0IxWFQEcRHYUkSC+9TvljkrXNly8fVrcf4Adgec9QLaL5uF3NYWqc+9IRLoK1pX+68qYQ2gcO3Eq0uRFlLhpzOSLo+gepfeLdzzBucnErmrINJq19bJO+GGoVBD4zxUshEniZutk/diXkauhX19dy5GrYEVyNVtXj7v/bpAEE1nv1XL4zcFCefWS2NhzxFP7NgF9b9x78rcV8vT+zRQatOXAGbE4b/qgNWMqZUt3GtED19m2rthjigbtr1i2CmDgytGrKaplWXXuefb2HHBgwEaKt9TeseH4ezzY/LRy3nHAqIhRUQPDIXz/vzG0LdZ3RNLKIumJ+AWqN9KmFLfdXyC0bWPUZlggPOl26a2ZIIFJveRidCc8Uzrsg31Ps+Gd4i4Lqx5l6Mat7M5bR3tY2XpoC+p4z0tfJwvyDdJSC7lYWu56ZLPseGQB2z1ydmxQiYHHmyB+8Jfbmb65gVGZ9vYDD90xE7f5C/LYXDrX6tiSK7Gik3KK97+km/QzusBqKG9l35GhtDh38eHtadyI0g4mQZL0AeZ+1/6YO8ZYazR3srFYhVVCBbEnCqEaq8XG2L+QxR5KARbIWKzBrCwRQFmBvfy7DlNymBNjsQIrGLUqxpufldDVe3ipWiBgMIqKJLeE1j6+Xn5+ym48vwfRhgwOxpbqDMywWJBV46jGtDWNTaREKrU5z2Ap42yNrRlxNcgI2cdE62x0MTFVNlXRMYacROPjs3e0xoSYcIQzJab+PWLssyOTil0NxwlkZEqQyoAYKBGJV8qVTiq5app5fGS8pxkRe8zqhn1It24aG//Ra9zETiaus2ZGq4iWEDnBWszII4nUkXGUMdamuO6RvpbYxNsLjyjq5xkfqeXrvaQKcxmRKYlSTuTmz+RXTfHxJm5O7thnBv8vL98rv+6/9/uRw7yn9QSrDW0Y/slj4Z1FeEMO49zVI4JLLU44Gkxpv76aRacguB/3cKOvJgKfwZYjbeNdYuqKPFTZkqbEqDXCxaexoGSV0xHjKWY973SlpkYZZnZmLpmWkJxakaRJUlM34WHXbl5R5ps29uVzjI36aNOLTSschk108E2RVVmr+12qbCfdBJ+KvStsKwryS0J0aEYplYwfZkatjulAMzLpJDplum6CQaPackA+te5ylHUPsxAb/5FTTkZu0c6L1G3T7o6Mr3nY1/3Po77pP54gwqtp3bRpOloeYxnzMJNqaaEyFdYg68fa0qhOnggssrIfKmRSRQTgTig63shIZgqgWkSjRo00P3qWn8WfTU0ttKibVWuRZ1E7q87C6VJSmJrauuWHN04T3R1KjD9Pdge9qan3nf7cCGWucqS2Z9Dcox64V1TcUztS1oyAvgCH6He0wygYAAB9afNi8zG0G/nq1t9oH62nyj/I0FHaCQyP7Ffl8pBvrPh/as3t1249dK1+RwEP77Jgb3SCsOcSfCqAIFOHmS3fK57JIeDLaeDmhPUAlUr3ucIavO0UliYDmoA5ICytFCtdgBDzAQYrHEScxZ8uptIJCFVCAHAyTACFswFoMgcA4ZyTYuU9IAy8AwYXBCJ5lOqCYgsc0rg5MSpBC/oPKkO9M2HZxAPvWIRWcb4gsr6RfdUAWZyWO27YI3Mc4j9FLuLAMXVwFbfDtiUYmGo0EpciwzFJHHVobKgbbZwYlQQpLdB/eStDvYstm8rX37EIreKWGY9538i+Wj/IxNIe0puj7zXjrQz3nyInqtiBbWbqEtdVF2OLrQQGersajcTKEc3DUaJWcn0d8fKu7lt2+PpmBbFGprRUekZmi5OCVv3MeNvP/8uqDHsJulKUWf8DRXt/W9miyNT0OBoBAA=='</span>) <span class="built_in">format</span>(<span class="string">'woff2'</span>),</span><br><span class="line">    <span class="built_in">url</span>(<span class="string">'iconfont.woff?t=1589906807175'</span>) <span class="built_in">format</span>(<span class="string">'woff'</span>),</span><br><span class="line">    <span class="built_in">url</span>(<span class="string">'iconfont.ttf?t=1589906807175'</span>) <span class="built_in">format</span>(<span class="string">'truetype'</span>), <span class="comment">/* chrome, firefox, opera, Safari, Android, iOS 4.2+ */</span></span><br><span class="line">    <span class="built_in">url</span>(<span class="string">'iconfont.svg?t=1589906807175#iconfont'</span>) <span class="built_in">format</span>(<span class="string">'svg'</span>); <span class="comment">/* iOS 4.1- */</span></span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="selector-class">.iconfont</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">"iconfont"</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span>;</span><br><span class="line">    <span class="attribute">font-style</span>: normal;</span><br><span class="line">    <span class="attribute">-webkit-font-smoothing</span>: antialiased;</span><br><span class="line">    <span class="attribute">-moz-osx-font-smoothing</span>: grayscale;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="selector-class">.icon-douban</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">"\f01c8"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="selector-class">.icon-csdn</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">"\e60a"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="selector-class">.icon-zhihu</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">"\e69a"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="selector-class">.icon-tubiaozhizuo-</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">"\e60b"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="selector-class">.icon-bilibili-line</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">"\e75d"</span>;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>全部复制到<code>\blogs\themes\next\source\lib\font-awesome\css\all.min.css</code>后边。这样，就可以使用新添加的图标了</p>
+<p><i class="iconfont icon-bilibili-line"></i>：<code>&lt;i class=&quot;iconfont icon-bilibili-line&quot;&gt;&lt;/i&gt;</code></p>
+<h3 id="在侧栏的社交链接中加入bilibili"><a href="#在侧栏的社交链接中加入bilibili" class="headerlink" title="在侧栏的社交链接中加入bilibili"></a>在侧栏的社交链接中加入bilibili</h3><p>打开<code>blog\themes\next\_config.yml</code>，搜索找到sidebar下的social：增加</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">bilibili:</span> <span class="string">https://space.bilibili.com/281016992</span> <span class="string">||</span> <span class="string">iconfont</span> <span class="string">icon-bilibili-line</span></span><br></pre></td></tr></table></figure>
+<p>修改完如下：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">social:</span></span><br><span class="line">  <span class="comment">#GitHub: https://github.com/yourname || fab fa-github</span></span><br><span class="line">  <span class="comment">#E-Mail: mailto:yourname@gmail.com || fa fa-envelope</span></span><br><span class="line">  <span class="comment">#Weibo: https://weibo.com/yourname || fab fa-weibo</span></span><br><span class="line">  <span class="comment">#Google: https://plus.google.com/yourname || fab fa-google</span></span><br><span class="line">  <span class="comment">#Twitter: https://twitter.com/yourname || fab fa-twitter</span></span><br><span class="line">  <span class="comment">#FB Page: https://www.facebook.com/yourname || fab fa-facebook</span></span><br><span class="line">  <span class="comment">#StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow</span></span><br><span class="line">  <span class="comment">#YouTube: https://youtube.com/yourname || fab fa-youtube</span></span><br><span class="line">  <span class="comment">#Instagram: https://instagram.com/yourname || fab fa-instagram</span></span><br><span class="line">  <span class="comment">#Skype: skype:yourname?call|chat || fab fa-skype</span></span><br><span class="line">  <span class="attr">bilibili:</span> <span class="string">https://space.bilibili.com/B站id</span> <span class="string">||</span> <span class="string">iconfont</span> <span class="string">icon-bilibili-line</span></span><br></pre></td></tr></table></figure>
+<p>吧B站id换成你的B站id即可</p>
+
+    </div>
+
+    
+    
+    
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------end-------------</div>
+    
+</div>
+      
+    </div>
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>X.Zeppelin
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://x-zeppelin.github.io/hexo-icon/" title="给hexo next扩展图标">https://x-zeppelin.github.io/hexo-icon/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/secert-report/" rel="prev" title="关于个人崇拜及其后果">
+      <i class="fa fa-chevron-left"></i> 关于个人崇拜及其后果
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>   
+
+    
+
+    <div>
+    <center>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+    <div class="social-share" data-sites="weibo, qq, qzone,wechat"></div>
+    <script src="http://apps.bdimg.com/libs/jquery/1.8.2/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+    </center>
+    </div>   
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Font-Awesome相关知识"><span class="nav-number">1.</span> <span class="nav-text">Font Awesome相关知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Font-Awesome是什么"><span class="nav-number">1.1.</span> <span class="nav-text">Font Awesome是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Font-Awesome和hexo-next主题的关系"><span class="nav-number">1.2.</span> <span class="nav-text">Font Awesome和hexo next主题的关系</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三方图标库的使用"><span class="nav-number">2.</span> <span class="nav-text">第三方图标库的使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载图标"><span class="nav-number">2.1.</span> <span class="nav-text">下载图标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用下载的图标"><span class="nav-number">2.2.</span> <span class="nav-text">使用下载的图标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在侧栏的社交链接中加入bilibili"><span class="nav-number">2.3.</span> <span class="nav-text">在侧栏的社交链接中加入bilibili</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">X.Zeppelin</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/281016992" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;281016992" rel="noopener" target="_blank"><i class="iconfont icon-bilibili-line fa-fw"></i>bilibili</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">X.Zeppelin</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
