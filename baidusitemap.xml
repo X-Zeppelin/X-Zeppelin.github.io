@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://x-zeppelin.github.io/jokes/</loc>
+    <lastmod>2020-06-11</lastmod>
+  </url>  <url>
     <loc>https://x-zeppelin.github.io/md5-collisions/</loc>
-    <lastmod>2020-06-04</lastmod>
+    <lastmod>2020-06-11</lastmod>
   </url>  <url>
     <loc>https://x-zeppelin.github.io/secert-report/</loc>
     <lastmod>2020-05-20</lastmod>
