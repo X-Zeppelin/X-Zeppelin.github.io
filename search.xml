@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>ubuntu下一些命令</title>
+      <link href="ubuntu/"/>
+      <url>ubuntu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-合并pdf"><a href="#1-合并pdf" class="headerlink" title="1.合并pdf"></a>1.合并pdf</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pdfunite *.pdf all.pdf</span><br></pre></td></tr></table></figure><h2 id="2-在终端输入密码时显示星号"><a href="#2-在终端输入密码时显示星号" class="headerlink" title="2.在终端输入密码时显示星号"></a>2.在终端输入密码时显示星号</h2><p>编辑 /etc/sudoers</p><p>找到下面这行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Defaults env_reset</span><br></pre></td></tr></table></figure><p>在该行的末尾添加一个额外的单词 ``,pwfeedback`如下:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Defaults env_reset,pwfeedback</span><br></pre></td></tr></table></figure><h2 id="3-解决不定时弹出“热点登录”界面问题"><a href="#3-解决不定时弹出“热点登录”界面问题" class="headerlink" title="3.解决不定时弹出“热点登录”界面问题"></a>3.解决不定时弹出“热点登录”界面问题</h2><p>编辑 /etc/NetworkManager/NetworkManager.conf 文件,加入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[connectivity]</span><br><span class="line">uri&#x3D;</span><br><span class="line">interval&#x3D;0</span><br></pre></td></tr></table></figure><p>保存后退出</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service network-manager restart</span><br></pre></td></tr></table></figure><h2 id="4-取消点击图标最小化"><a href="#4-取消点击图标最小化" class="headerlink" title="4.取消点击图标最小化"></a>4.取消点击图标最小化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gsettings set org.gnome.shell.extensions.dash-to-dock click-action &#39;previews&#39;</span><br><span class="line"></span><br><span class="line">gsettings set org.gnome.shell.extensions.dash-to-dock click-action &#39;minimize&#39;</span><br></pre></td></tr></table></figure><h2 id="5-设置CrossOver无限试用15天的办法"><a href="#5-设置CrossOver无限试用15天的办法" class="headerlink" title="5.设置CrossOver无限试用15天的办法"></a>5.设置CrossOver无限试用15天的办法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm ~&#x2F;.cxoffice&#x2F;容器名称&#x2F;.eval</span><br></pre></td></tr></table></figure><h2 id="ssh连接远程服务器"><a href="#ssh连接远程服务器" class="headerlink" title="ssh连接远程服务器"></a>ssh连接远程服务器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@xx.xx.xx.xx</span><br></pre></td></tr></table></figure><p>免密登录</p><p>1.客户端生成公私钥</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure><p>2.上传公钥到服务器</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-copy-id -i ~&#x2F;.ssh&#x2F;id_rsa.pub root@xx.xx.xx.xx</span><br></pre></td></tr></table></figure><p>3.测试免密登录</p><h2 id="var-log-journal-垃圾日志清理"><a href="#var-log-journal-垃圾日志清理" class="headerlink" title="/var/log/journal/ 垃圾日志清理"></a>/var/log/journal/ 垃圾日志清理</h2><p>journalctl 命令自动维护文件大小</p><p>1）只保留近一周的日志</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">journalctl --vacuum-time&#x3D;1w</span><br></pre></td></tr></table></figure><p>2）只保留500MB的日志</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">journalctl --vacuum-size&#x3D;500M</span><br></pre></td></tr></table></figure><p>3）直接删除 /var/log/journal/ 目录下的日志文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf &#x2F;var&#x2F;log&#x2F;journal&#x2F;f9d400c5e1e8c3a8209e990d887d4ac1</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>csharp</title>
       <link href="csharp/"/>
       <url>csharp/</url>
