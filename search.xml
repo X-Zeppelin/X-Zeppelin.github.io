@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>vlc在ubuntu20.04上的一个bug与解决</title>
+      <link href="vlc-bug/"/>
+      <url>vlc-bug/</url>
+      
+        <content type="html"><![CDATA[<p><img src="bug.png" alt=""></p><p>参考<a href="https://superuser.com/questions/1566707/ubuntu-20-04-vlc-player-not-quitting" target="_blank" rel="noopener">这个帖子</a></p><p>解决方案是进入Tools &gt; Preferences, 之后进入 Inputs/Codec</p><p>将Hardware Accelerated decoding 更改为除了Automatic和VDPAU之外的其他选项, 比如默认</p><p>强制停止vlc:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">killall -9 vlc</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> vlc ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>检测链接是否被腾讯封锁</title>
       <link href="sbtx/"/>
       <url>sbtx/</url>
